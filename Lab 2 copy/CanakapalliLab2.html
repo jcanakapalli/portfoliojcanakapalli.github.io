@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Lab2.css">
+        <title> Schedule for Jahnavi - A17524835 - Fall, 2023 </title>
+    </head>
+    <body>
+        <h1>
+            Definitions
+        </h1>
+        <h2>
+            How to define a table
+        </h2>
+        <p>&lt;table&gt; defines a table. Use elements listed below to specify content inside specific cells.</p>
+        <h2>
+            When to use:
+        </h2>
+        <p>&lt;tr&gt;: Table row. Use when starting a row. </p>
+        <p>&lt;td&gt;: Table data. Use when writing information in a cell of a table.</p>
+        <p>&lt;th&gt;: Table head. Use when defining a cell as a header.</p>
+        <p>&lt;thead&gt;: Use when grouping headers in a table.</p>
+        <p>&lt;tfoot&gt;: Use when grouping footers in a table.</p>
+        <p>&lt;caption&gt;: Adding a title or caption to a table.</p>
+        <h2>Difference between colspan and rowspan.</h2>
+        <p>Colspan combines cells across a table (horizontally) and rowspan combines cells vertically.</p>
+        <h2>Difference between cell spacing and padding.</h2>
+        <p>Cell spacing is the space between two cells in a table, and padding is the space between the border of a cell and the content in it.</p>
+        <h2>How to define table borders with CSS.</h2>
+        <p>In a CSS file, use border property to specify table borders. Define line weight and solid or dashed line.</p>
+        <h2>How to control border widths.</h2>
+        <p>Use border-width property to define thickness of borders. Specify border width:thin/medium/thick.</p>
+        <table border="1">
+            <caption>Jahnavi's Fall Schedule 2023</caption>
+        <thead>
+            <tr>
+                <th>time</th>
+                <th>mon</th>
+                <th>tues</th>
+                <th>wed</th>
+                <th>thurs</th>
+                <th>fri</th>
+                <th>sat-sun</th>
+            </tr>
+        </thead>
+            <tr>
+                <th class="time">8:30 am</th>
+                <td>get ready
+                    <img src="images/getready.jpeg">
+                </td>
+                <td rowspan="5" colspan="3">sleep
+                    <img src="images/sleeping.jpeg">
+                </td>
+                <!--sleep-->
+                <!--sleep-->
+                <td>get ready
+                    <img src="images/getready.jpeg">
+                </td>
+                <td rowspan="9">sleep
+                    <img src="images/sleeping.jpeg">
+                </td>
+            </tr>
+            <tr>
+                <th class="time">9 am</th>
+                <td rowspan="5">
+                    <a href="https://beatriton.ucsd.edu/portal/tours?cmd=guided">work</a>
+                </td>
+                <!--sleep-->
+                <!--sleep-->
+                <!--sleep-->
+                <td rowspan="5">
+                    <a href="https://beatriton.ucsd.edu/portal/tours?cmd=guided">work</a>
+                </td>
+                <!--sleep-->
+            </tr>
+            <tr>
+                <th class="time">9:30 am</th>
+                <!--work-->
+                <!--sleep-->
+                <!--sleep-->
+                <!--sleep-->
+                <!--sleep-->
+            </tr>
+            <tr>
+                <th class="time">10 am</th>
+                <!--work-->
+                <!--sleep-->
+                <!--sleep-->
+                <!--sleep-->
+                <!--work-->
+                <!--sleep-->
+            </tr>
+            <tr>
+                <th class="time">10:30 am</th>
+                <!--work-->
+                <!--sleep-->
+                <!--sleep-->
+                <!--sleep-->
+                <!--work-->
+                <!--sleep-->
+            </tr>
+            <tr>
+                <th class="time">11 am</th>
+                <!--work-->
+                <td rowspan="4">get ready
+                    <img src="images/getready.jpeg">
+                </td>
+                <td colspan="2">get ready
+                    <img src="images/getready.jpeg">
+                </td>
+                <!--get ready-->
+                <!--work-->
+                <!--sleep-->
+            </tr>
+            <tr>
+                <th class="time">11:30 am</th>
+                <td>
+                    <a href="https://www.tasteofhome.com/collection/5-ingredient-easy-breakfast-ideas/">eat breakfast</a>
+                </td>
+                <!--get ready-->
+                <td colspan="2">
+                    <a href="https://www.tasteofhome.com/collection/5-ingredient-easy-breakfast-ideas/">eat breakfast</a>
+                </td>
+                <!--eat breakfast-->
+                <td>
+                    <a href="https://www.tasteofhome.com/collection/5-ingredient-easy-breakfast-ideas/">eat breakfast</a>
+                </td>
+                <!--sleep-->
+            </tr>
+            <tr>
+                <th class="time">12 pm</th>
+                <td rowspan="2">
+                    <a href="http://courses.ucsd.edu/coursemain.aspx?section=246252">PHYS 1A Class</a>
+                </td>
+                <!--get ready-->
+                <td rowspan="2"><a href="http://courses.ucsd.edu/coursemain.aspx?section=246252">PHYS 1A Class</a></td>
+                <td rowspan="4">
+                    <a href="http://courses.ucsd.edu/coursemain.aspx?section=246508">PHYS 1A Lab</a>
+                </td>
+                <td rowspan="2"><a href="http://courses.ucsd.edu/coursemain.aspx?section=246252">PHYS 1A Class</a></td>
+                <!--sleep-->
+            </tr>
+            <tr>
+                <th class="time">12:30 pm</th>
+                <!--physics-->
+                <!--get ready-->
+                <!--PHYS 1a-->
+                <!--PHYS Lab-->
+                <!--physics-->
+                <!--sleep-->
+            </tr>
+            <tr>
+                <th class="time">1 pm</th>
+                <td rowspan="2">lay in bed and scroll on tiktok
+                    <img src="images/tiktok.jpeg">
+                </td>
+                <td rowspan="2">
+                    <a href="https://www.tasteofhome.com/collection/5-ingredient-easy-breakfast-ideas/">eat breakfast</a>
+                </td>
+                <td rowspan="2">
+                    <a href="https://hdh-web.ucsd.edu/dining/apps/diningservices/Restaurants/MenuItem/05">Eat lunch</a>
+                </td>
+                <!--PHYS Lab-->
+                <td rowspan="2">
+                    hang out with friends
+                    <img src="images/friendssit.jpeg">
+                </td>
+                <td rowspan="4">
+                    <a href="https://www.tasteofhome.com/collection/5-ingredient-easy-breakfast-ideas/">make and eat breakfast</a>
+                </td>
+            </tr>
+            <tr>
+                <th class="time">1:30 pm</th>
+                <!--lay in bed-->
+                <!--eat breakfast-->
+                <!--eat lunch-->
+                <!--PHYS Lab-->
+                <!--friends-->
+                <!--eat-->
+            </tr>
+            <tr>
+                <th class="time">2 pm</th>
+                <td rowspan="2">
+                    <a href="http://courses.ucsd.edu/coursemain.aspx?section=251674">BIEB 146 Discussion</a>
+                </td>
+                <td rowspan="3">
+                    <a href="https://pages.ucsd.edu/~mboyle/COGS3/index.html">COGS 3 Class</a>
+                </td>
+                <td rowspan="5">
+                    <a href="https://canvas.ucsd.edu/">Do HW/Study</a>
+                </td>
+                <td rowspan="3"> 
+                    <a href="https://pages.ucsd.edu/~mboyle/COGS3/index.html">COGS 3 Class</a>
+                </td>
+                <td rowspan="2">
+                    <a href="https://hdh-web.ucsd.edu/dining/apps/diningservices/Restaurants/MenuItem/05">Eat lunch</a>
+                </td>
+                 <!--eat-->
+            </tr>
+            <tr>
+                <th class="time">2:30 am</th>
+                <!--bieb discussion-->
+                <!--COGS 3-->
+                <!--do hw-->
+                <!--cogs-->
+                <!--lunch-->
+                 <!--eat-->
+            </tr>
+            <tr>
+                <th class="time">3 pm</th>
+                <td rowspan="5"><a href="https://canvas.ucsd.edu/">Work on assignments/Study</a></td>
+                <!--COGS 3-->
+                <!--do hw-->
+                <!--COGS 3-->
+                <td rowspan="2">
+                    <a href="https://canvas.ucsd.edu/">Do HW/Study</a>
+                </td>
+                <td rowspan="4">
+                    <a href="https://canvas.ucsd.edu/">Do HW/Study</a>
+                </td>
+            </tr>
+            <tr>
+                <th class="time">3:30 pm</th>
+                <!--work on assignments-->
+                <td rowspan="3">
+                    <a href="http://courses.ucsd.edu/coursemain.aspx?section=223179">CHEM 40A Class</a>
+                </td>
+                <!--do hw-->
+                <td rowspan="3"> 
+                    <a href="http://courses.ucsd.edu/coursemain.aspx?section=223179">CHEM 40A Class</a>
+                </td>
+                <!--study-->
+                <!--hw-->
+            </tr>
+            <tr>
+                <th class="time">4 pm</th>
+                <!--work on assignments-->
+                <!--CHEM 40A-->
+                <!--do hw-->
+                <!--CHEM 40A-->
+                <td rowspan="5">
+                    sit in apartment, doing nothing
+                </td>
+                <!--hw-->
+            </tr>
+            <tr>
+                <th class="time">4:30 pm</th>
+                <!--work on assignments-->
+                <!--CHEM 40A-->
+                <td rowspan="4">gym
+                    <img src="images/maingym.jpeg">
+                </td>
+                <!--CHEM 40A-->
+                <!--sit in apartment-->
+                <!--hw-->
+            </tr>
+            <tr>
+                <th class="time">5 pm</th>
+                <!--work on assignments-->
+                <td rowspan="3">
+                    <a href="http://courses.ucsd.edu/coursemain.aspx?section=251674">BIEB 146 Class</a>
+                </td>
+                <!--gym-->
+                <td rowspan="3">
+                    <a href="http://courses.ucsd.edu/coursemain.aspx?section=251674">BIEB 146 Class</a>
+                </td>
+                <!--sit in apartment-->
+                <td rowspan="6">go out with friends
+                    <img src="images/goout.jpeg">
+                </td>
+            </tr>
+            <tr>
+                <th class="time">5:30 pm</th>
+                <td rowspan="2">talk to suitemates</td>
+                <!--BIEB 146-->
+                <!--gym-->
+                <!--BIEB 146-->
+                <!--sit in apartment-->
+                <!--out-->
+            </tr>
+            <tr>
+                <th class="time">6 pm</th>
+                <!--talk to suitemates-->
+                <!--BIEB 146-->
+                <!--gym-->
+                <!--BIEB 146-->
+                <!--sit in apartment-->
+                <!--out-->
+            </tr>
+            <tr>
+                <th class="time">6:30 pm</th>
+                <td rowspan="2">gym
+                    <img src="images/maingym.jpeg">
+                </td>
+                <td colspan="3">
+                    <a href="https://www.budgetbytes.com/top-10-recipes-for-college-students/">make dinner</a>
+                </td>
+                <!--make dinner-->
+                <!--make dinner-->
+                <td rowspan="3">
+                    <a href="https://www.nonnasd.com/">go out for dinner</a>
+                </td>
+                <!--out-->
+            </tr>
+            <tr>
+                <th class="time">7 pm</th>
+                <!--gym-->
+                <td rowspan="2" colspan="3">
+                    <a href="https://www.youtube.com/c/codyko">eat dinner while watching youtube videos</a>
+                </td>
+                <!--eat dinner-->
+                <!--eat dinner-->
+                <!--out for dinner-->
+                <!--out-->
+            </tr>
+            <tr>
+                <th class="time">7:30 pm</th>
+                <td><a href="https://www.budgetbytes.com/top-10-recipes-for-college-students/">make dinner</a>
+                </td>
+                <!--eat dinner-->
+                <!--eat dinner-->
+                <!--eat dinner-->
+                <!--out for dinner-->
+                <!--out-->
+            </tr>
+            <tr>
+                <th class="time">8 pm</th>
+                <td colspan="6">shower
+                    <img src="images/shower.avif">
+                </td>
+                <!--shower-->
+                <!--shower-->
+                <!--shower-->
+                <!--shower-->
+                <!--shower-->
+            </tr>
+        </table>
+    </body>
+</html>

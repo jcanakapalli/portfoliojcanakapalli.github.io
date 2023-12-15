@@ -1,0 +1,68 @@
+
+table {
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: x-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+}
+thead {
+    border: 2px blueviolet solid;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: palegreen;
+    padding: 40px 40px 40x 40px;
+    font-size: large;
+    margin: auto;
+    width:max-content;
+}
+
+.time {
+    background-color: palegoldenrod;
+    border: 2px red solid;
+    padding: 20px 20px 20px 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    margin: auto;
+    width:max-content;
+}
+
+td {
+    border: 1px green solid;
+    background-color: hotpink;
+    font-family: fantasy;
+    font-size: medium;
+    margin: auto;
+    width:max-content;
+}
+
+h1 {
+    color:cornflowerblue;
+}
+h2 {
+    color:blueviolet;
+}
+p {
+    color:darkgreen;
+}
+a:link {
+    color:darkmagenta;
+}
+
+a:visited {
+    color: darkred;
+}
+
+a:active {
+    color: darkorange;
+}
+a:hover {
+    color:green;
+    cursor:grabbing;
+}
+img {
+    border: 1px black solid;
+    width: 150px;
+}

@@ -1,0 +1,54 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #FED9ED;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  margin: 30px;
+  text-shadow: 5px 0 #E7BCDE;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #67729D;
+}
+
+h2, h3 {
+  margin: 30px;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #67729D;
+}
+
+p {
+  color: #67729D;
+}
+
+img {
+  width: 80%;
+  background-color: #7071E8;
+  border-radius: 30%;
+  mix-blend-mode: hard-light;
+}
+
+
+.myBtn {
+  margin: 30px;
+}
+
+footer {
+  margin-top: 5%;
+  color: #7071E8;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}

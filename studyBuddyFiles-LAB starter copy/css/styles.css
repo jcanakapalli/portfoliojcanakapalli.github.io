@@ -1,0 +1,175 @@
+#title {
+    background-color: #BEADFA;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1 {
+    font-family: 'Agbalumo';
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #FFF6F6;
+}
+
+h2 {
+    color: #FFF6F6;
+    font-family: 'Agbalumo';
+    font-size: 1.5;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Agbalumo';
+    font-weight: bold;
+}
+
+p {
+    color: #000;
+    font-family: 'Playfair Display';
+}
+/*Navigation Bar*/
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.navbar-brand {
+    font-family: 'Playfair Display';
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FFF6F6;
+}
+
+.nav-item {
+    padding: 0 18px;
+    color:#FFF6F6;
+}
+
+.navbar-link {
+    font-family: 'Agbalumo';
+    font-size: 1.2rem;
+}
+
+/*download button*/
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/*Title Image*/
+
+.title-image {
+    width: 60%;
+    transform: rotate(20deg);
+    position: absolute;
+}
+
+/*features section*/
+
+#features {
+    padding: 7% 15%;
+    background-color: #FFF8C9;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #DFCCFB;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #BEADFA;
+}
+
+/*testimonials*/
+
+#testimonials {
+    text-align: center;
+    background-color: #BEADFA;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 50%;
+    margin: 10px;
+
+}
+
+#press {
+    background-color: #BEADFA;
+    text-align: center;
+}
+
+.press-logo {
+    width: 10%;
+    margin: 20px 20px 50px;
+}
+
+/*pricing*/
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+    background-color: #FFF8C9;
+}
+
+.pricing-header {
+    color: #000;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.card {
+    background-color: #DFCCFB;
+}
+
+/*call to action*/
+#cta {
+    background-color: #BEADFA;
+    color: #FFF8C9;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/*footer section*/
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #FFF8C9;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+/*media*/
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+        .title-image {
+            position:static;
+            transform: rotate(0);
+        }
+    }
